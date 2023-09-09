@@ -1,5 +1,5 @@
 import tkinter as tk
-import mysql
+import mysql.connector
 from tkinter import *
 
 
