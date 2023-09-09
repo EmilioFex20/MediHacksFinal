@@ -1,2 +1,1 @@
-# MediHacksFinal
-MediHacks Final Project
+# MediHacksProject
