@@ -1,0 +1,52 @@
+MDScreen:
+    name: "login"
+    MDFloatLayout:
+        id:login_layout
+        md_bg_color: 1,1,1,1
+
+        MDIconButton:
+            icon: "assets/atras.png"
+            user_font_size: "35sp"
+            pos_hint: {"center_y":.95}
+
+        Image:
+            source: "assets/lobo2,jpg"
+            size_hint: .36,.36
+            pos_hint: {"center_x":.22, "center_y":.8}
+
+        MDLabel:
+            text: "Atras"
+            pos_hint: {"center_x":.615, "center_y":.949}
+            font_size: "18sp"
+            font_name: "letras/Poppins-Regular.ttf"  
+
+        MDLabel:
+            text: "Larm185"
+            pos_hint: {"center_x":.917, "center_y":.849}
+            font_size: "32sp"
+            font_name: "letras/Poppins-Regular.ttf"    
+
+        MDLabel:
+            text: "Soluciones LTDA"
+            pos_hint: {"center_x":.915, "center_y":.790}
+            font_size: "22sp"
+            font_name: "letras/Poppins-Medium.ttf"     
+            color: 120/225,120/225,120/225,1
+
+        
+        MDTextField: 
+            id: input_email 
+            hint_text: "Ingresa Tu Email" 
+            helper_text: ""
+            font_name: "letras/Poppins-Regular.ttf" 
+            helper_text_mode: "persistent" 
+            pos_hint: {"center_x": .5 ,"center_y":.52}
+            size_hint_x:.85
+            line_color_focus:0,0,0,1
+
+        Image: 
+            source: "assets/key.png" 
+            size_hint: .10, .10 
+            pos_hint:{"center_x": .90, "center_y":.44}
+
+            
