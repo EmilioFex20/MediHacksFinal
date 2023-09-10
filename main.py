@@ -21,7 +21,7 @@ def logintodb(user, passw):
 		db = mysql.connector.connect(host ="localhost",
 									user = user,
 									password = passw,
-									db ="College")
+									db ="college")
 		cursor = db.cursor()
 		
 	# If no password is entered by the
@@ -29,11 +29,11 @@ def logintodb(user, passw):
 	else:
 		db = mysql.connector.connect(host ="localhost",
 									user = user,
-									db ="College")
+									db ="college")
 		cursor = db.cursor()
 		
 	# A Table in the database
-	savequery = "select * from STUDENT"
+	savequery = "select * from person"
 	
 	try:
 		cursor.execute(savequery)
